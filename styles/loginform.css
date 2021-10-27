@@ -1,0 +1,120 @@
+body{ 
+    font-family: Karla;
+    background: #E5E5E5;   
+    padding-bottom: 100px;
+}
+.sign_up_form{
+    position: relative;
+    width: 800px;
+    height:600px;
+    left: 50%;
+    top: 50%;
+    background: #a7d7c5;
+    transform:translate(-50%, 10%);
+    
+}
+.box1{
+    position: fixed;
+    z-index: -1;
+}
+.box2{
+    position: fixed;
+    top: 335px;
+    left: 515px;
+    z-index: -1;
+}
+.create_form {
+   position: absolute;
+    width: 455px;
+    height: 455px;
+    top:72px;
+    left: 173px;
+    background: #F6FBF9;
+    border-radius: 32px;
+   
+}
+.create_form h1{
+    position: relative;   
+    top: 44px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    /* Heading */
+color: #212B27; 
+}
+.create_form h2{
+    position: absolute;
+    padding-top: 4px;
+    padding-left: 73px;
+    text-align: center;
+    width: 308px;
+    height: 39px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #32403B;
+}
+.create_form form{
+    position: relative;
+    top: 51px;
+    padding-left: 39px; 
+    padding-top: 32px;
+    box-sizing: border-box
+}
+form .account_input{
+    padding-top: 15px;
+}
+.account_input input{  
+    width: 375px;
+    height: 55px;
+    left: 212px;
+    top: 238px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form input{
+    left: 273px;
+    top: 384px;
+}
+form ::-webkit-input-placeholder 
+{
+    position: relative;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    line-height: 19px;
+    left: 22px;
+}
+form input[type="submit"]{
+    position: relative;
+    width: 255px;
+    height: 59px;
+    top: 21px;
+    left:61px;
+    background: #84C7AE;
+    border-radius: 15px;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+.sign_in {
+    text-align: center;
+    padding-right: 21px;
+    padding-top: 11px;
+    margin: 26px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #32403B;
+}
+.sign_in a{
+    color: #32403B;
+}

@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-decoration: none;
+    list-style: none;
+   
+}
+body{
+    background-color: white;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tilte{
+    position: relative;
+    
+}
+.tilte h2{
+    position: relative;
+    height: 26px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #5D7085;
+    left: 28.21%;
+    top: 11px;
+}
+.container{
+   position: fixed;
+    top:105px;
+    display:flex;
+    width: min(1600px,100%);
+    left:419px;
+}
+
+.pricing-card-Personal{
+    height: 601px;
+    width: 266px;
+    background: linear-gradient(180deg, #FDC624 0%, #E6C434 99.36%);
+    border-radius: 2px;
+    margin:68px 6px;
+    padding-top: 61px;
+    padding-left: 34px;
+    padding-bottom: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.pricing-card-Business{
+    height: 601px;
+    width: 266px;
+    background: linear-gradient(180deg, #55DCE7 0%, #3DCAD4 100%);
+    border-radius: 2px;
+    margin:68px 6px;
+    padding-top: 61px;
+    padding-left: 34px;
+    padding-bottom: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.pricing-card-Developer{
+    height: 601px;
+    width: 266px;
+    background: linear-gradient(180deg, #6BDFFF 0%, #3DACFC 100%);
+    border-radius: 2px;
+    margin:68px 6px;
+    padding-top: 61px;
+    padding-left: 34px;
+    padding-bottom: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.pricing-card-Agency{
+    height: 601px;
+    width: 266px;
+    background: linear-gradient(180deg, #BFCEDC 0%, #939FB3 100%);
+    border-radius: 2px;
+    margin:68px 6px;
+    padding-top: 61px;
+    padding-left: 34px;
+    padding-bottom: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.container div img{
+    position: relative;
+    height: 140px;
+    width: 196.58px;
+    left: -14px;
+}
+
+.container div h3{
+    font-size: 21px;
+    line-height: 25px;
+    height: 26px;
+    width: 83px;
+}
+.container div h4{
+    position: relative;
+    top:-20px;
+    padding-bottom: 27px;
+    height: 16px;
+    width: 200px;
+    font-size: 12px;
+line-height: 16px;
+
+}
+.container div ul{
+    position: relative;
+    top:-60px;
+    left: 5px; 
+    align-items: center;
+    margin-top: 30px;
+}
+.container div ul li  {
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+}
+.container div ul li img{
+    margin-left: 10px;
+    height: 7.97px;
+    width: 9.5px;
+}
+.price{
+    position: relative;
+    top:-30px;
+    font-size: 67px;
+    line-height: 79px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+.price sup{
+    position: relative;
+    height: 24px;
+    top: calc(50% - 24px/2 - 22px);
+    bottom: 25px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.order-btn{
+    
+    position: absolute;
+    top:593px;
+    
+    color: #FFFFFF ; 
+    display: inline-block;
+    margin:0px -10px;
+    margin-bottom: 34px;
+
+    border-radius:3px;
+    border: 3px solid #FFFFFF;
+    padding: 13px 51px 10px 51px;
+}
+.pricing-card-Developer a{
+    background:#FFFFFF;
+    color:#3DACFC;
+}
+.pricing-card-Developer h5{
+   position: absolute;
+    background: linear-gradient(180deg, #63D6FE 0%, #5DD4F8 100%);
+    color: #FFFFFF;
+    top:50px;
+    left:654px;
+    z-index: 1;
+}
+.pricing-card-Developer h5 img{
+    height: 11.97px;
+    width: 12.49px;
+}
